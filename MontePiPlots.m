@@ -33,7 +33,7 @@ function MontePiPlots()
     ylabel('Execution Time (s)');
     title('Execution Time vs. n');
     grid on;
-    saveas(gcf, 'Plot 1"ExecutionTime vs n".png');
+    saveas(gcf, 'ExecutionTime vs n.png');
 
     % Plot absolute errors against n (2)
     figure;
@@ -42,7 +42,7 @@ function MontePiPlots()
     ylabel('Absolute Error');
     title('Absolute Error vs. n');
     grid on;
-    saveas(gcf, 'Plot 2"AbsoluteError_vs_n".png');
+    saveas(gcf, 'AbsoluteError_vs_n.png');
 
     % 3. Display the random points for a fixed value of 10000
     n_fixed = 10000;
@@ -85,7 +85,7 @@ function MontePiPlots()
     legend('Inside Circle', 'Outside Circle');
     axis equal;
     grid on;
-    saveas(gcf, 'Plot 3"RandomPoints_n".png');
+    saveas(gcf, 'RandomPoints_n.png');
 
 end
 
