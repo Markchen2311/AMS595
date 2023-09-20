@@ -29,3 +29,13 @@ Q3
 5.Results display show the three values required in order of Approximated value for π,Absolute error and Relative error
 
 run the MontePi.m and input the number (n) of random points to generate,then the result will be displayed in order of Approximated value for π,Absolute error and Relative error.
+
+(b)main idea:
+1.A range of values n_values is defined, arrays execution_times and absolute_errors are initialized.
+2.For each value of n in n_values, use the Monte Carlo method to approximate the execution time of each approximation is recorded.The absolute error is also computed.
+3.Obtain plots 1 and 2 as required in question 1 and 2.
+4.The random point generation process is shown by a fixed number of points n_fixed(in my case I choose 10000). The random points are plotted in two colors: inside the quarter circle and outside the quarter circle.
+5.Save the plots in the MATLAB working directory.
+6.Add nested funtion MontePi(n).
+
+run the MontePiPlots then 3 plots as required will Automatically be saved in the the MATLAB working directory for analysis.
